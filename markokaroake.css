@@ -1,0 +1,258 @@
+.home-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .frame {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .title {
+    width: 100%;
+    height: 18vh; 
+
+    background-color: rgba(59, 43, 155, 1);
+  }
+ 
+
+  .titleText1 {
+    color: rgba(255, 255, 255, 1);
+    display:flex;
+    justify-content: center;
+    font-size: 6vh;
+    font-style: Regular;
+    text-align: center;
+    font-family: Kameron;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+  }
+  
+  .titleText2{
+    color: rgba(191, 60, 202, 1);
+    display:flex;
+    justify-content: center;
+    font-size: 8vh;
+    align-self: center;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kameron;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+  }
+
+  #description {
+    top: 50vh;
+    left: 25%;
+    width: 50vh;
+    height: 7vh;
+    color: rgb(24, 21, 21);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:5vh;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: flex-start;
+    font-family: Kameron;
+    font-weight: 400;
+    border-radius: 9px;
+  }
+  
+  #fileSelect {
+    top: 50vh;
+    left: 50%;
+    width: 25vh;
+    height: 7vh;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:5vh;
+    font-size: 2vh;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: flex-start;
+    font-family: Kameron;
+    font-weight: 400;
+    border-radius: 9px;
+    background-color: rgba(191, 60, 202, 1);
+    
+  }
+
+  #offsetSelect {
+    top: 50vh;
+    left: 50%;
+    width: 20vh;
+    height: 5vh;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:1vh;
+    font-size: 2vh;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: flex-start;
+    font-family: Kameron;
+    font-weight: 400;
+    border-radius: 9px;
+    background-color: rgb(138, 60, 202);
+  }
+
+  #offset {
+    width: 15vh;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:1vh;
+  }
+
+  #url-button {
+    width: 20vh;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top:2vh;
+  }
+
+
+  .home-lyrics {
+    top: 40%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 0;
+    border-radius: 20px;
+    margin-bottom: 0;
+    background-color: rgba(192, 61, 203, 0.2);
+    position: absolute;
+  }
+
+  #cover {
+    width:100%;
+    height:100%;
+    opacity: 0%;
+    background-color: rgb(162, 64, 165);
+    z-index: 1;
+  }
+
+  /* lyric formatting */
+  #top-text {
+    top: 15%;
+    left: 10%;
+    color: rgba(182, 174, 174, 1);
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    font-size: 40px;
+    align-self: center;
+    font-style: Bold;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+  }
+
+  #bottom-text {
+    top: 70%;
+    left: 10%;
+    color: rgba(189, 184, 184, 1);
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    font-size: 40px;
+    align-self: center;
+    font-style: Bold;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+  }
+  #display{
+    top: 40%;
+    height: 50px;
+    left: 10%;
+    color: rgba(0, 0, 0, 1);
+    width: 80%;
+    position: absolute;
+    font-size: 50px;
+    align-self: center;
+    font-style: Bold;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+  }
+  
+
+  #play-button {
+    top: 27%;
+    left: 44%;
+    width: 18vh;
+    height: 18vh;
+    opacity: 0.8;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+  #play-button:hover {
+    opacity:1;
+  }
+
+  #pauseButton {
+    top: 27%;
+    left: 44%;
+    width: 18vh;
+    height: 18vh;
+    opacity: 0.8;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  #loading-button {
+    top: 27%;
+    left: 44%;
+    width: 18vh;
+    height: 18vh;
+    opacity: 0.8;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+  }
+
+
+  #credits {
+    bottom: 10px;
+    margin:auto;
+    color: rgba(0, 0, 0, 1);
+    font-size: 2.4vh;
+    font-style: Bold;
+    text-align: left;
+    font-family: Kameron;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    position: absolute;
+  }
+  

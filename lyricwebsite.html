@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark O Karoake</title>
+    <link href="./markokaroake.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div>
+        <table class="frame">
+            <tr><div class="title">
+                <span class="titleText1">Mark O-Yang’s</span>
+                <span class="titleText2">Karoake Machine</span>
+            </div></tr>
+            <tr>
+                <div id="fileSelect">
+                    <input id="url-button" placeholder="Paste URL here" type="text">
+                </div>
+                <div id="offsetSelect">
+                    <input id="offset" placeholder="Time of first word" type="number">
+                </div>
+            </tr>
+            <tr><div class="home-lyrics">
+                <div id="cover"></div>   
+                <input id="top-text" value = "Previous Lyric" type="text" disabled>
+                <input id="display" value = "Current Lyric" type="text" disabled>
+                <input id="bottom-text" value = "Next Lyric" type="text" disabled>
+
+                <input type="image" src="playButton.png" id="play-button" onclick="playButton()">
+                <input type="image" src="loading.png" id="loading-button" hidden disabled>
+                <!--<input type="image" src="pauseButton.png" id="pause-button" onclick=""/>-->
+            </div></tr>
+            <p id="credits">Created by Team O-Yang</p>
+        </table>
+    </div>
+    <span id="description">Enter a direct url to an mp3 in the first box, and enter the time in seconds the first word is said in the second box (ex. if singing starts at 0:06, enter 6)</span>
+
+<script type="text/javascript" src = "script.js"></script>
+
+</body>
+</html>
+
